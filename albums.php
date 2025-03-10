@@ -21,7 +21,7 @@ if (isset($_POST['sessionAlbum'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albums | Pashupati</title>
+    <title>Albums | Afaq almaarifa</title>
     <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="icon" type="image/x-icon" href="assects/images/logo2.png">
@@ -42,7 +42,7 @@ if (isset($_POST['sessionAlbum'])) {
                 <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white">Albums</h2>
 
                 <p class="hidden max-w-screen-sm text-gray-500 dark:text-gray-300 md:block">
-                Kindly navigate to the album in order to have access to and peruse through all the images contained therein.
+                Veuillez naviguer vers l'album afin d'accéder à toutes les images qu'il contient et de les parcourir.
                 </p>
             </div>           
         </div>        

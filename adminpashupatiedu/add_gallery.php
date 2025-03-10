@@ -133,17 +133,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-10 mx-auto">
             <div class="flex flex-col text-center w-full mb-5">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-600">Add Gallery</h1>
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-600">Ajouter une galerie</h1>
                 <p class="text-sm md:text-base lg:w-2/3 mx-auto leading-relaxed text-base">
-                    Hope you're well! Can you do me a solid for the school website? We're showcasing our latest
-                    [event/projects] and need a snazzy album. Head to the admin panel, hit "Gallery," and whip up an
-                    album. Toss in the pics, set it to be seen, and that's it. Let me know if you need a hand. Cheers!
+                J'espère que vous allez bien ! Peux-tu me rendre service pour le site web de l'école ? Nous présentons notre dernier [événement/projet] et nous avons besoin d'un bel album. Allez dans le panneau d'administration, cliquez sur « Galerie » et créez un album. Ajoutez les photos, configurez-le pour qu'il soit visible, et c'est tout. Si vous avez besoin d'un coup de main, n'hésitez pas à me le faire savoir. A bientôt !
+
+
+
                 </p>
             </div>
             <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal"
                 class="mt-10 block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 type="button">
-                Create New Album
+                Créer un nouvel album
             </button>
         </div>
     </section>

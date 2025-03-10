@@ -2,28 +2,28 @@
     <div class="container px-5 py-10 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <img fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12 bg-black-500 rounded-full" viewBox="0 0 24 24" src="assects/images/defaults/logo-white.png">
-                <span class="ml-3 text-xl text-[#fff]">Pashupati Technical School</span>
+            <img fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12 bg-black-500" viewBox="0 0 24 24" src="assects/images/defaults/afaq-logo.png">
+                <span class="ml-3 text-xl text-[#fff]">Bienvenue à l'École Afaq Al Maarifa</span>
             </a>
             <p class="mt-2 text-sm text-gray-500">
-                Welcome to our school, a vibrant educational hub where diverse backgrounds converge, fostering an enriching and inspiring learning environment.</p>
+            Nous sommes ravis de vous accueillir dans notre communauté éducative. À l'École Afaq Al Maarifa, nous nous engageons à offrir une éducation de qualité dans un environnement inclusif et stimulant. 
+
+Rejoignez-nous pour découvrir un lieu d’apprentissage où chaque élève est encouragé à grandir, à apprendre et à s'épanouir.</p>
         </div>
         <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-medium text-[#fff] tracking-widest text-sm mb-3">COURSES</h2>
+                <h2 class="title-font font-medium text-[#fff] tracking-widest text-sm mb-3">cours</h2>
                 <nav class="list-none mb-10">
                     <li>
-                        <a href="aboutus.php#courses" class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer">Computer Engineering 9-12</a>
+                        <a href="aboutus.php#courses" class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer">accéder au cours</a>
                     </li>
-                    <li>
-                        <a href="aboutus.php#courses" class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer">Management (+2 Computer Science)</a>
-                    </li>
+                   
                     
                 </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-medium text-[#fff] tracking-widest text-sm mb-3">USEFUL LINKS</h2>
-                <nav class="list-none mb-10">
+                <h2 class="title-font font-medium text-[#fff] tracking-widest text-sm mb-3">LIENS UTILES</h2>
+                <!-- <nav class="list-none mb-10">
                     <li>
                         <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer" onclick="ministryofEducation()">Ministry of Education</a>
                     </li>
@@ -34,48 +34,50 @@
                         <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer" onclick="ePustakalaya()">E-Pustakalaya</a>
                     </li>
                     
-                </nav>
+                </nav> -->
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
                 <h2 class="title-font font-medium text-[#fff] tracking-widest text-sm mb-3">CONTACT</h2>
                 <nav class="list-none mb-10">
-                    <li>
-                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer" onclick="locationmap()"> Bahradashi-3, Jhapa Nepal</a>
+                <li>
+                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer" >Youssoufia</a>
                     </li>
                     <li>
-                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer" onclick="callschool()"> 9844640316</a>
+                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer" > Hay Al Amal, Agandise</a>
                     </li>
                     <li>
-                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer" onclick="mailschool()">pashupati.school4012<br>@gmail.com</a>
+                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer" > +212 5246-45484</a>
                     </li>
                     <li>
-                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer" onclick="locationmap()"> Shree Pashupati H.S.S/College</a>
+                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer">Afaqalmaarifa@yahoo.fr</a>
                     </li>
+                  
                 </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-medium text-[#fff] tracking-widest text-sm mb-3">DEVELOPED BY</h2>
+                <h2 class="title-font font-medium text-[#fff] tracking-widest text-sm mb-3">Niveau scolaire</h2>
                 <nav class="list-none mb-10">
-                    <li onclick="developers()">
-                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer">Nishchal Acharya</a>
+                    <li >
+                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer">MATERNELLE</a>
                     </li>
-                    <li onclick="developers()">
-                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer">Pratik Ghimire</a>
+                    <li >
+                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer">PRIMAIRE</a>
                     </li>
-                    <li onclick="developers()">
-                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer">Monika Rajbanshi</a>
+                    <li >
+                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer">COLLÈGE</a>
                     </li>
-                    <li onclick="developers()">
-                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer">Sugam Rai</a>
+                    <!-- <li onclick="developers()">
+                        <a class="text-sm md:text-base text-[#888} hover:text-[#ff9f45] cursor-pointer">MATERNELLE</a>
                     </li>
+                  -->
                 </nav>
             </div>
         </div>
     </div>
     <div class="bg-[#03212e]">
         <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-            <p class="text-sm md:text-base text-gray-500 text-sm text-center sm:text-left">Copyright © 2023 - <?php echo date("Y"); ?> All rights reserved by -
-                <a href="https://technicalpashupati.edu.np" rel="noopener noreferrer" class="text-[#fff] ml-1" target="_blank">Pashupati Technical Secondary School</a>
+            <p class="text-sm md:text-base text-gray-500 text-sm text-center sm:text-left">Copyright © 2025 - 2026 All rights reserved by -
+                <a href="https://technicalpashupati.edu.np" rel="noopener noreferrer" class="text-[#fff] ml-1" target="_blank">AFAQ AL MAARIFA</a>
             </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                 <a class="text-gray-500">

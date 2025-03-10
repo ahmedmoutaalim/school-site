@@ -34,14 +34,11 @@ try {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Accueil</title>
     <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="icon" type="image/x-icon" href="assects/images/logo2.png">
-    <link rel="stylesheet" href="css/animation.css">
-    <style>
-
-    </style>
+    <link rel="stylesheet" href="css/animation.css">   
 </head>
 
 <body>
@@ -61,22 +58,22 @@ try {
                     <span
                         class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First
                         Slide</span>
-                    <img src="assects/images/schoolImages/fullschool.jpg"
+                    <img src="assects/images/schoolImages/afaq-image1.jpg"
                         class="object-contain block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
                         alt="...">
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="assects/images/schoolImages/mainschool.jpg"
+                    <img src="assects/images/schoolImages/afaq-image2.jpg"
                         class="object-contain block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
                         alt="...">
                 </div>
                 <!-- Item 3 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <!-- <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src="assects/images/schoolImages/engineeringschool.jpg"
                         class="object-contain block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
                         alt="...">
-                </div>
+                </div> -->
             </div>
             <!-- Slider indicators -->
             <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
@@ -120,13 +117,13 @@ try {
 
     <h1
         class="mt-8 ml-5 mb-4 text-xl text-4xl font-bold leading-none tracking-tight text-blue-600 md:text-5xl lg:text-2xl dark:text-white">
-        Shree Pashupati Technical Secondary School</h1>
+        Ecole afaq al maarifa</h1>
     <p class="text-justify ml-5 mr-5 text-base font-normal text-gray-500 lg:text-xxx dark:text-gray-400">
         <?php echo $row['one']; ?></p>
 
     <h1
         class="mt-8 ml-5 mb-4 text-xl text-4xl font-bold leading-none tracking-tight text-blue-600 md:text-5xl lg:text-2xl dark:text-white">
-        Why Pashupati ?</h1>
+        Pourquoi choisir l'École Afaq Al Maarifa ?</h1>
     <p class="text-justify ml-5 mr-5 text-base font-normal text-gray-500 lg:text-xxx dark:text-gray-400">
         <?php echo $row['two']; ?></p>
 
@@ -151,7 +148,7 @@ try {
                     </div>
 
                     <h3 class="text-lg font-bold mb-2">
-                        Highly Qualified Teachers
+                    Environnement inclusif 
                     </h3>
 
                     <p class="text-sm leading-6 text-gray-600"><?php echo $row['three']; ?></p>
@@ -171,7 +168,7 @@ try {
                     </div>
 
                     <h3 class="text-lg font-bold mb-2">
-                        Peaceful Environment
+                    Éducation de qualité
                     </h3>
 
                     <p class="text-sm leading-6 text-gray-600"><?php echo $row['four']; ?></p>
@@ -194,7 +191,7 @@ try {
                     </div>
 
                     <h3 class="text-lg font-bold mb-2">
-                        Digital Learning
+                    Infrastructures modernes
                     </h3>
 
                     <p class="text-sm leading-6 text-gray-600"><?php echo $row['five']; ?></p>
@@ -215,7 +212,7 @@ try {
                     </div>
 
                     <h3 class="text-lg font-bold mb-2">
-                        Facilited Development Enviroment
+                    Accompagnement personnalisé
                     </h3>
 
                     <p class="text-sm leading-6 text-gray-600"><?php echo $row['six']; ?></p>
@@ -227,15 +224,15 @@ try {
     </div>
     <h1
         class="ml-5 mb-4 text-xl text-4xl font-bold leading-none tracking-tight text-blue-600 md:text-5xl lg:text-2xl dark:text-white">
-        What student says about us ?</h1>
+        Notre Vision</h1>
     <p class="text-justify ml-5 mr-5 text-base font-normal text-gray-500 lg:text-xxx dark:text-gray-400">
-        <?php echo $row['seven']; ?></p>
-
-    <h1
+        <?php echo $row['seven']; ?></p><br><br>
+        <br>
+    <!-- <h1
         class="mt-8 ml-5 mb-4 text-xl text-4xl font-bold leading-none tracking-tight text-blue-600 md:text-5xl lg:text-2xl dark:text-white">
         Computer Engineering</h1>
     <p class="text-justify ml-5 mr-5 text-base font-normal text-gray-500 lg:text-xxx dark:text-gray-400 mb-5">
-        <?php echo $row['eight']; ?></p>
+        <?php echo $row['eight']; ?></p> -->
 
     <?php include('includes/footer.php') ?>
 

@@ -45,6 +45,8 @@ if (isset($_POST['submit'])) {
     <link rel="icon" type="image/x-icon" href="../assects/images/admin_logo.png">
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src=""></script>
+
 
 </head>
 
@@ -53,10 +55,16 @@ if (isset($_POST['submit'])) {
     <main>
         <section class="bg-gray-50 dark:bg-gray-900">
             <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-                <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-                    <img class="w-80 h-22 mr-2" src="../assects/images/defaults/header_logo.png" alt="logo">
+               
+                <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
 
-                </a>
+                <img onclick="homepage()" style="cursor: pointer; width:8rem" fill="none" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class=" h-22 bg-black-500" viewBox="0 0 24 24"
+                    src="../assects/images/defaults/afaq-logo.png">
+
+                <!-- <span class="ml-3 text-xl">Pashupati Technical School</span> -->
+            </a>
                 <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
                     <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
                         <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">

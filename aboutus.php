@@ -50,22 +50,22 @@ try {
                     <p class="text-justify text-sm md:text-base mb-8 leading-relaxed">
                         <?php echo $row['one'];?></p>
                     <div class="flex justify-center">
-                        <button onclick="contactbtn()" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact Us</button>
-                        <button onclick="joinbtn()" class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Join Us</button>
+                        <button onclick="contactbtn()" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contactez-nous</button>
+                        <button onclick="joinbtn()" class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Rejoignez-nous</button>
                     </div>
                 </div>
                 <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img class="object-cover object-center rounded" alt="hero" src="assects/images/joinus/joinus.png">
+                    <img class="object-cover object-center rounded" alt="hero" src="assects/images/joinus/afaq-image1.jpg">
                 </div>
             </div>
         </section>
 
-        <section class="text-gray-600 body-font">
+        <!-- <section class="text-gray-600 body-font">
             <div class="container px-5 py-5 mx-auto flex flex-col">
                 <div class="lg:w-4/6 mx-auto">
-                    <!-- <div class="rounded-lg h-64 overflow-hidden">
+                   <div class="rounded-lg h-64 overflow-hidden">
                         <img alt="content" class="object-cover object-center h-full w-full" src="assects/images/schoolImages/mainschool.jpg">
-                    </div> -->
+                    </div> 
                     <div class="flex flex-col sm:flex-row mt-10">
                         <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                             <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
@@ -92,13 +92,13 @@ try {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
         <section class="text-gray-600 body-font">
             <div class="container px-5 py-5 mx-auto">
                 <div class="text-center mb-10">
-                    <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-600 mb-4">Rules and regulations</h1>
+                    <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-600 mb-4">Reglement interieur</h1>
                     <p class="text-justify text-sm md:text-base text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
                     <?php echo $row['three'];?></p>
                 </div>
@@ -201,30 +201,27 @@ try {
         <section id="courses" class="text-gray-600 body-font">
             <div class="container px-5 py-24 mx-auto">
                 <div class="text-center mb-10">
-                    <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-600 mb-4">Our Courses</h1>
-                    <p class="text-justify text-sm md:text-base text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                    <?php echo $row['fourteen'];?></p>
-                </div>
-                <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-                    <div class="sm:w-1/2 mb-10 px-4">
-                        <div class="rounded-lg h-64 overflow-hidden">
-                            <img alt="content" class="object-cover object-center h-full w-full" src="assects/images/courses/computerengineering.jpg">
+                    <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-blue-600 mb-4">Preinscription</h1>
+                    <div class="rounded-lg h-64 overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full w-full" src="assects/images/schoolImages/afaq-image1.jpg">
                         </div>
-                        <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Computer Engineering (9-12)</h2>
-                        <p class="text-justify text-sm md:text-base leading-relaxed text-base">
-                        <?php echo $row['fifteen'];?></p>
-                        <button onclick="joinbtn()" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Join Computer Engineering</button>
-                    </div>
-                    <div class="sm:w-1/2 mb-10 px-4">
+                        <br>
+                    <p class="text-justify text-sm md:text-base text-base leading-relaxed xl:w-1/1 lg:w-1/1 mx-auto">
+                    <?php echo $row['fourteen'];?></p>
+                    <button onclick="joinbtn()" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Join Computer Science</button>
+                </div>
+                 <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+                   
+                    <!-- <div class="sm:w-1/1 mb-10 px-4">
                         <div class="rounded-lg h-64 overflow-hidden">
-                            <img alt="content" class="object-cover object-center h-full w-full" src="assects/images/courses/computerscience.jpg">
+                            <img alt="content" class="object-cover object-center h-full w-full" src="assects/images/schoolImages/afaq-image1.jpg">
                         </div>
                         <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Management (+2 Computer Science)</h2>
                         <p class="text-justify text-sm md:text-base leading-relaxed text-base">
                         <?php echo $row['sixteen'];?></p>
                         <button onclick="joinbtn()" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Join Computer Science</button>
                     </div>
-                </div>
+                </div>  -->
             </div>
         </section>
 
@@ -234,7 +231,7 @@ try {
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-wrap w-full mb-20">
                     <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Our Facilities</h1>
+                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Services</h1>
                         <div class="h-1 w-20 bg-indigo-500 rounded"></div>
                     </div>
                     <p class="text-justify text-sm md:text-base lg:w-1/2 w-full leading-relaxed text-gray-500">
@@ -243,33 +240,33 @@ try {
                 <div class="flex flex-wrap -m-4">
                     <div class="xl:w-1/4 md:w-1/2 p-4">
                         <div class="bg-gray-100 p-6 rounded-lg">
-                            <img class="h-40 rounded w-full object-cover object-center mb-6" src="assects/images/facilities/physics_lab.jpg" alt="content">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6" src="assects/images/joinus/afaq-image1.jpg" alt="content">
                             <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font"></h3>
-                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Physics Lab</h2>
+                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Laboratoire de physique</h2>
                             <p class="text-sm md:text-base leading-relaxed text-base"><?php echo $row['eighteen'];?></p>
                         </div>
                     </div>
                     <div class="xl:w-1/4 md:w-1/2 p-4">
                         <div class="bg-gray-100 p-6 rounded-lg">
-                            <img class="h-40 rounded w-full object-cover object-center mb-6" src="assects/images/facilities/computer_lab.jpg" alt="content">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6" src="assects/images/joinus/afaq-image1.jpg" alt="content">
                             <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font"></h3>
-                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Computer Lab</h2>
+                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Laboratoire informatique</h2>
                             <p class="text-sm md:text-base leading-relaxed text-base"><?php echo $row['ninteen'];?></p>
                         </div>
                     </div>
                     <div class="xl:w-1/4 md:w-1/2 p-4">
                         <div class="bg-gray-100 p-6 rounded-lg">
-                            <img class="h-40 rounded w-full object-cover object-center mb-6" src="assects/images/facilities/network_lab.jpg" alt="content">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6" src="assects/images/joinus/afaq-image1.jpg" alt="content">
                             <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font"></h3>
-                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Electronics and Network Lab</h2>
+                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">technologie</h2>
                             <p class="text-sm md:text-base leading-relaxed text-base"><?php echo $row['twenty'];?></p>
                         </div>
                     </div>
                     <div class="xl:w-1/4 md:w-1/2 p-4">
                         <div class="bg-gray-100 p-6 rounded-lg">
-                            <img class="h-40 rounded w-full object-cover object-center mb-6" src="assects/images/facilities/library_lab.jpg" alt="content">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6" src="assects/images/joinus/afaq-image1.jpg" alt="content">
                             <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font"></h3>
-                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Library</h2>
+                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Bibliothèque</h2>
                             <p class="text-sm md:text-base leading-relaxed text-base"><?php echo $row['twentyone'];?></p>
                         </div>
                     </div>

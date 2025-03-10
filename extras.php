@@ -28,11 +28,11 @@ try {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extras | Pashupati</title>
+    <title>Activités | Afaq almaarifa</title>
     <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
     <script src="javaScript/extras.js"></script>
-    <link rel="icon" type="image/x-icon" href="assects/images/logo2.png">
+    <link rel="icon" type="image/x-icon" href="assects/images/afaq-logo.png">
 
 </head>
 
@@ -48,7 +48,7 @@ try {
         <section class="text-gray-600 body-font">
             <div class="container px-5 py-10 mx-auto">
                 <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-600">Extras</h1>
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-600">Activités</h1>
                     <p class="text-sm md:text-base lg:w-2/3 mx-auto leading-relaxed text-base"><?php echo $row['one'];?>
                     </p>
                 </div>
@@ -59,8 +59,8 @@ try {
                                 class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                                 src="assects/images/extras_avatar/gallery.jpg">
                             <div class="flex-grow">
-                                <h2 class="text-blue-600 title-font font-medium">Gallery</h2>
-                                <p class="text-sm md:text-base text-gray-500">Events, Picnic, Memories</p>
+                                <h2 class="text-blue-600 title-font font-medium">Galerie</h2>
+                                <p class="text-sm md:text-base text-gray-500">Événements, pique-nique, souvenirs</p>
                             </div>
                         </div>
                     </div>
@@ -70,8 +70,8 @@ try {
                                 class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                                 src="assects/images/extras_avatar/class_routine.jpg">
                             <div class="flex-grow">
-                                <h2 class="text-blue-600 title-font font-medium">Class Routine</h2>
-                                <p class="text-sm md:text-base text-gray-500">Daily Class Routine</p>
+                                <h2 class="text-blue-600 title-font font-medium">Routine de la classe</h2>
+                                <p class="text-sm md:text-base text-gray-500">Routine quotidienne de la classe</p>
                             </div>
                         </div>
                     </div>
@@ -81,12 +81,12 @@ try {
                                 class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                                 src="assects/images/extras_avatar/calender.png">
                             <div class="flex-grow">
-                                <h2 class="text-blue-600 title-font font-medium">Nepali Calender</h2>
+                                <h2 class="text-blue-600 title-font font-medium">Calendrier</h2>
                                 <p class="text-sm md:text-base text-gray-500">Holidays, Events, Days</p>
                             </div>
                         </div>
                     </div>
-                    <div class="p-2 lg:w-1/3 md:w-1/2 w-full" onclick="curriculumDevelopmentCentre()">
+                    <!-- <div class="p-2 lg:w-1/3 md:w-1/2 w-full" onclick="curriculumDevelopmentCentre()">
                         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg hover:bg-blue-100">
                             <img alt="team"
                                 class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -96,19 +96,19 @@ try {
                                 <p class="text-sm md:text-base text-gray-500">Subjects Somprising a Course</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="p-2 lg:w-1/3 md:w-1/2 w-full" onclick="ministryofEducation()">
                         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg hover:bg-blue-100">
                             <img alt="team"
                                 class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                                src="assects/images/extras_avatar/ministryofEducation.png">
+                                src="assects/images/extras_avatar/شعار_وزارة_التربية_الوطنية_والتعليم_الأولي_والرياضة.png">
                             <div class="flex-grow">
-                                <h2 class="text-blue-600 title-font font-medium">Ministry of Education</h2>
-                                <p class="text-sm md:text-base text-gray-500">National Education Policy</p>
+                                <h2 class="text-blue-600 title-font font-medium">Ministère de l'éducation</h2>
+                                <p class="text-sm md:text-base text-gray-500">Ministère de l'Éducation nationale, du préscolaire & des Sports</p>
                             </div>
                         </div>
                     </div>
-                    <div class="p-2 lg:w-1/3 md:w-1/2 w-full" onclick="ePustakalaya()">
+                    <!-- <div class="p-2 lg:w-1/3 md:w-1/2 w-full" onclick="ePustakalaya()">
                         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg hover:bg-blue-100">
                             <img alt="team"
                                 class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -118,16 +118,15 @@ try {
                                 <p class="text-sm md:text-base text-gray-500">Digital Copy of Any Book</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="p-2 lg:w-1/3 md:w-1/2 w-full" onclick="staffs()">
                         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg hover:bg-blue-100">
                             <img alt="team"
                                 class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                                 src="assects/images/extras_avatar/staffs.png">
                             <div class="flex-grow">
-                                <h2 class="text-blue-600 title-font font-medium">Staff</h2>
-                                <p class="text-sm md:text-base text-gray-500">School Staff, व्यवस्थापन समिति, Parents
-                                    Teacher Association (PTA)</p>
+                                <h2 class="text-blue-600 title-font font-medium">Personnel</h2>
+                                <p class="text-sm md:text-base text-gray-500">Personnel de l'école, Association des enseignants</p>
                             </div>
                         </div>
                     </div>
@@ -138,12 +137,12 @@ try {
                                 class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                                 src="assects/images/extras_avatar/social_icon.webp">
                             <div class="flex-grow">
-                                <h2 class="text-blue-600 title-font font-medium">Our Social</h2>
-                                <p class="text-sm md:text-base text-gray-500">Connect with our school in other platform</p>
+                                <h2 class="text-blue-600 title-font font-medium">Réseaux sociaux</h2>
+                                <p class="text-sm md:text-base text-gray-500">Connectez-vous avec notre école sur d'autres plateformes</p>
                             </div>
                         </div>
                     </div>
-                    <div class="p-2 lg:w-1/3 md:w-1/2 w-full" onclick="developers()">
+                    <!-- <div class="p-2 lg:w-1/3 md:w-1/2 w-full" onclick="developers()">
                         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg hover:bg-blue-100">
                             <img alt="team"
                                 class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -153,7 +152,7 @@ try {
                                 <p class="text-sm md:text-base text-gray-500">Developed by Our Students</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- Main modal -->

@@ -34,7 +34,7 @@ try {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join Us</title>
+    <title>Preinscription</title>
     <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link rel="icon" type="image/x-icon" href="assects/images/logo2.png">
@@ -59,11 +59,11 @@ try {
     <section class="text-gray-600 body-font" id="joinUsSection">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                <img class="object-cover object-center rounded" alt="hero" src="assects/images/joinus/joinus.png">
+                <img class="object-cover object-center rounded" alt="hero" src="assects/images/joinus/afaq-image1.jpg">
             </div>
             <div
                 class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-600">Join Us
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-600">Rejoignez-nous
                     <br class="hidden lg:inline-block">
                 </h1>
                 <p class="mb-8 leading-relaxed">
@@ -72,8 +72,7 @@ try {
                 <div id="admissionform" class="flex justify-center">
                     <a href="#admissionform" onclick="scrollToAdmissionForm()">
                         <button
-                            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Scroll
-                            to Register Students</button>
+                            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Formulaire d'inscription</button>
                     </a>
                 </div>
             </div>
@@ -82,11 +81,8 @@ try {
 
     <main>
         <section class="max-w-4xl p-6 mx-auto bg-indigo-600 rounded-md shadow-md dark:bg-gray-800 mt-0 mb-10">
-            <h1 class="text-xl font-bold text-white capitalize dark:text-white">Admission Form</h1><br>
-            <h1 class="hide_after_submission text-x text-white capitalize dark:text-white">Make sure to fill in your
-                admission forms carefully. Check all the details, like your personal and academic information, to avoid
-                mistakes. Your carefulness will help make your application process smooth. If you have any questions,
-                feel free to ask the admissions office for help.</h1>
+            <h1 class="text-xl font-bold text-white capitalize dark:text-white">Formulaire d'admission</h1><br>
+            <h1 class="hide_after_submission text-x text-white capitalize dark:text-white">Veuillez remplir vos formulaires d'admission avec soin. Assurez-vous que toutes les informations personnelles et académiques sont exactes afin d'éviter toute erreur. Votre attention facilitera le bon déroulement du processus. En cas de question, n’hésitez pas à contacter le bureau des admissions pour obtenir de l’aide.</h1>
 
 
             <div style="display: none;" id="alert-additional-content-3"
@@ -126,78 +122,66 @@ try {
 
                 <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
                     <div>
-                        <label class="text-white dark:text-gray-200">Full Name <span
+                        <label class="text-white dark:text-gray-200">nom et prénom<span
                                 style="color: red;">*</span></label>
-                        <input placeholder="Nitin Sharma" required name="full_name" type="text"
+                        <input placeholder="nom et prénom" required name="Nom_complet" type="text"
                             class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                     </div>
 
                     <div>
-                        <label class="text-white dark:text-gray-200">Address <span style="color: red;">*</span></label>
-                        <input placeholder="Bahradashi 3 Jhapa" id="address" required name="address" type="text"
+                        <label class="text-white dark:text-gray-200">Adresse<span style="color: red;">*</span></label>
+                        <input placeholder="Adresse" id="address" required name="adresse" type="text"
                             class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                     </div>
 
                     <div>
-                        <label class="text-white dark:text-gray-200">Gender <span style="color: red;">*</span></label>
-                        <select name="gender"
+                        <label class="text-white dark:text-gray-200">Genre <span style="color: red;">*</span></label>
+                        <select name="Genre"
                             class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
 
                             <option value="Male">Male</option>
-                            <option value="Female">Female</option>
-                            <option value="Others">Others</option>
+                            <option value="Female">Femelle</option>
+       
 
                         </select>
                     </div>
                     <div>
-                        <label class="text-white dark:text-gray-200">Date of Birth (DOB) <span
+                        <label class="text-white dark:text-gray-200">Date de naissance<span
                                 style="color: red;">*</span></label>
                         <input required name="dob" id="date" type="date"
                             class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                     </div>
 
                     <div>
-                        <label class="text-white dark:text-gray-200">Father's name <span
+                        <label class="text-white dark:text-gray-200">Nom du père<span
                                 style="color: red;">*</span></label>
-                        <input placeholder="Hari Sharma" name="father_name" required type="text"
+                        <input placeholder="Nom du père" name="father_name" required type="text"
                             class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                     </div>
 
                     <div>
-                        <label class="text-white dark:text-gray-200">Mother's Name <span
+                        <label class="text-white dark:text-gray-200">nom de la mère<span
                                 style="color: red;">*</span></label>
-                        <input placeholder="Sabitra Sharma" name="mother_name" required type="text"
+                        <input placeholder="nom de la mère" name="nom de la mère" required type="text"
                             class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                     </div>
 
                     <div>
-                        <label class="text-white dark:text-gray-200">Grade you want to admit <span
+                        <label class="text-white dark:text-gray-200">Niveau scolaire<span
                                 style="color: red;">*</span></label>
                         <select name="admit_to"
                             class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
-                            <option>Nursery</option>
-                            <option>1 ( English Medium )</option>
-                            <option>2 ( English Medium )</option>
-                            <option>3 ( English Medium )</option>
-                            <option>4 ( English Medium )</option>
-                            <option>5 ( English Medium )</option>
-                            <option>6 ( English Medium )</option>
-                            <option>6 ( Nepali Medium) </option>
-                            <option>7 ( English Medium )</option>
-                            <option>7 ( Nepali Medium )</option>
-                            <option>8 ( English Medium )</option>
-                            <option>8 ( Nepali Medium )</option>
-                            <option>9 ( Nepali Medium )</option>
-                            <option>10 ( Nepali Medium )</option>
-                            <option>9 to 12( Computer Engineering )</option>
-                            <option>+2( Commerce )</option>
-                            <option>+2( Computer Science )</option>
+                            <option>afaq almaarifa</option>
+                            <option>1 test </option>
+                            <option>2 test</option>
+                            <option>3 test</option>
+                        
                         </select>
                     </div>
 
                     <div>
-                        <label class="text-white dark:text-gray-200">Previous School</label>
-                        <input placeholder="Saraswati Secondary School" name="previous_school" type="text"
+                        <label class="text-white dark:text-gray-200">Ecole précédente</label>
+                        <input placeholder="école précédente" name="previous_school" type="text"
                             class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                     </div>
                     <div>
@@ -209,19 +193,19 @@ try {
                     <div>
                         <label class="text-white dark:text-gray-200">Phone No. <span
                                 style="color: red;">*</span></label>
-                        <input placeholder="9817000000" id="phone" required name="phone" type="text"
+                        <input placeholder="0698170000" id="phone" required name="phone" type="text"
                             class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                     </div>
 
                     <div>
-                        <label class="text-white dark:text-gray-200">Write short intro about yourself <span
+                        <label class="text-white dark:text-gray-200">Courte introduction<span
                                 style="color: red;">*</span></label>
                         <textarea required rows="4" id="textarea" name="intro" type="textarea"
                             class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"></textarea>
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-white">
-                            Passport Size Image <span style="color: red;">*</span>
+                            Fichier <span style="color: red;">*</span>
                         </label>
                         <div
                             class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
@@ -235,11 +219,12 @@ try {
                                 <div class="flex text-sm text-gray-600">
                                     <label for="file-upload"
                                         class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
-                                        <span class="">Upload a file</span>
+                                        <span class="">Télécharger un fichier</span>
                                         <input required type="file" accept="image/*" name="file-upload" id="file-upload" type="file"
                                             class="sr-only" onchange="displayFileName()">
                                     </label>
-                                    <p id="file-info" class="pl-1 text-white">or drag and drop</p>
+                                    <p id="file-info" class="pl-1 text-white">choisi
+                                    ou glisser-déposer</p>
                                 </div>
                             </div>
                         </div>
@@ -247,14 +232,13 @@ try {
                     <div class="flex justify-start ml-5 mt-6">
                         <input required id="default-checkbox" type="checkbox" value=""
                             class="mt-1 w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                        <label for="default-checkbox" class="text-white ml-5 dark:text-gray-200">Confrim, I have
-                            rechecked
-                            it.</label>
+                        <label for="default-checkbox" class="text-white ml-5 dark:text-gray-200">Confirmation
+                           </label>
                     </div>
                     <div class="flex justify-end mt-6">
 
                         <button name="register_student"
-                            class="px-6 py-2 leading-5 text-white transition-colors duration-200 transform bg-pink-500 rounded-md hover:bg-pink-700 focus:outline-none focus:bg-gray-600">Register</button>
+                            class="px-6 py-2 leading-5 text-white transition-colors duration-200 transform bg-pink-500 rounded-md hover:bg-pink-700 focus:outline-none focus:bg-gray-600">Inscrire</button>
                     </div>
             </form>
         </section>
